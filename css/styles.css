@@ -11,18 +11,20 @@
   --grey: rgba(46, 47, 66, 0.7);
   --white: #fff;
   --dairy: #fcfcfc;
-}
-
-:root {
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
-}
-
-body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  background: #f4f4fd;
+  color: #434455;
+}
+button {
+  cursor: pointer;
+}
 /* p, a - 400, h1 - 700 */
 /* pseudoclass it is why because in html it is not exist but in css is. */
 
@@ -51,10 +53,6 @@ img {
 }
 
 address {
-}
-
-button {
-  cursor: pointer;
 }
 
 .container {
@@ -88,7 +86,7 @@ header {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: rgb(0, 0, 128);
+  color: #2e2f42;;
   width: 156px;
   background: #fff;
   border-bottom: 1px solid #e7e9fc;
@@ -118,6 +116,7 @@ header {
   /* перемещаем в крайне правое положение то есть максимальное
   место для левого маргина. */
   margin-left: auto;
+    font-style: normal;
 }
 
 .header-contacts-list {
@@ -268,7 +267,14 @@ header {
 
 .feature-description {
 }
+.header-contacts-link:focus, .header-contacts-link:hover {
+  color: green;
+}
 
+.hero-btn-blue:hover, .hero-btn-blue:focus {
+  color: orchid;
+
+}
 .team-cards {
   background: var(--cloud);
 }
