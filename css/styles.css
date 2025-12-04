@@ -56,7 +56,8 @@ address {
 }
 
 .container {
-  width: 1158px;
+  /* що не дає макету зменшуватися на вужчих екранах. */
+  max-width: 1158px;
   /* 1158-1128=30/2=15px paddings */
   padding-right: 15px;
   padding-left: 15px;
