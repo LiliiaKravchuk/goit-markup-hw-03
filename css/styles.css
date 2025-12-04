@@ -19,7 +19,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background: #f4f4fd;
+  background: white;
   color: #434455;
 }
 button {
@@ -50,6 +50,8 @@ ul {
 
 img {
   display: block;
+  /* Для зображень необхідне адаптивне правило max-width: 100%, 
+  тому вони можуть виходити за межі контейнерів на малих екранах. */
   max-width: 100%;
   height: auto;
 }
@@ -68,8 +70,7 @@ address {
 }
 
 header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+
 }
 
 .header-container {
@@ -78,6 +79,9 @@ header {
 }
 
 .header-navigation {
+  display: block;
+    padding-top: 24px;
+  padding-bottom: 24px;
   display: flex;
   align-items: center;
 }
@@ -133,6 +137,7 @@ header {
 }
 
 .header-contacts-link {
+  padding: ;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -307,6 +312,7 @@ header {
 
 /* Це зробить зображення «гумовими», тобто вони підлаштовуватимуться під ширину батьківського елемента */
 .team-cards-img {
+  max-width: 100%;
   /* min-width: 100%; */
   object-fit: cover;
 }
