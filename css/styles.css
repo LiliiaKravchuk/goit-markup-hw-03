@@ -252,12 +252,11 @@ header {
 }
 
 .features {
-    padding-top: 120px;
+  padding-top: 120px;
   padding-bottom: 409px;
 }
 
 .features-list {
-
   display: flex;
   gap: 24px;
   justify-content: center;
@@ -265,7 +264,7 @@ header {
 }
 
 .features-item {
-  width: calc((100% - 24 * 2) / 4);
+  width: calc((100% - 24px * 2) / 4);
 }
 
 .features-subtitle {
@@ -300,7 +299,7 @@ header {
 .team-cards-item {
   border-radius: 0 0 4px 4px;
   /* padding: 0px 0px 32px; */
-  width: calc((100% - 3 * 24) / 4);
+  width: calc((100% - 3 * 24px) / 4);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
@@ -321,6 +320,7 @@ header {
 }
 
 .portfolio {
+  padding: 120px 72px;
 }
 
 /* explanation text under image in section portfolio for example */
@@ -340,7 +340,6 @@ header {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  padding: 120px 72px;
 }
 
 .portfolio-list {
@@ -354,7 +353,7 @@ header {
 }
 
 .portfolio-item {
-  width: calc((100% - 2 * 24) / 3);
+  width: calc((100% - 2 * 24px) / 3);
 }
 
 .portfolio-img {
