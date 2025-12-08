@@ -89,7 +89,7 @@ header {
   font-family: var(--second-family), sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -133,9 +133,9 @@ header {
 }
 
 .header-menu-link {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -146,7 +146,7 @@ header {
 .header-contacts-link {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -192,7 +192,7 @@ header {
 .section-subtitle-basic {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -201,7 +201,7 @@ header {
 .section-description-basic {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
@@ -215,7 +215,7 @@ header {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   color: #fff;
   max-width: 496px;
 }
@@ -234,7 +234,7 @@ header {
   align-items: center;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: white;
   cursor: pointer;
@@ -285,7 +285,7 @@ header {
 
 .team-cards-title {
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   color: #2e2f42;
 }
 
@@ -401,4 +401,11 @@ header {
   text-align: left;
 
   color: var(--cloud);
+
+  /* color: #f4f4fd; */
+  margin: 16px 0 0;
+  font-family: Roboto;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
 }
