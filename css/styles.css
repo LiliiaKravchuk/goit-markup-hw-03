@@ -70,6 +70,7 @@ address {
 }
 
 header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -95,7 +96,6 @@ header {
   color: #2e2f42;
   width: 156px;
   background: #fff;
-  border-bottom: 1px solid #e7e9fc;
   margin-right: 76px;
   /* height: 24px; */
   /* with preprocessors old mode style*/
@@ -133,6 +133,7 @@ header {
 }
 
 .header-menu-link {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -245,15 +246,15 @@ header {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
 }
-
+ 
 .hero-btn-blue:hover,
 .hero-btn-blue:focus {
-  color: #091160;
+  background-color: #404bbf;
 }
 
 .features {
   padding-top: 120px;
-  padding-bottom: 409px;
+  padding-bottom: 120px;
 }
 
 .features-list {
@@ -281,6 +282,7 @@ header {
 .team-cards {
   background: var(--cloud);
   padding-bottom: 72px;
+  padding: 120px 0px;
 }
 
 .team-cards-title {
