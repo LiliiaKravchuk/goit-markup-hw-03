@@ -111,7 +111,6 @@ header {
   display: flex;
   width: 261px;
   gap: 40px;
-  /* justify-content: space-between; */
 }
 
 .header-menu-item {
@@ -137,8 +136,8 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
-    padding-top: 24px;
+  color: #2e2f42;
+  padding-top: 24px;
   padding-bottom: 24px;
 }
 
@@ -217,7 +216,7 @@ header {
 }
 
 .hero-title {
-  margin: auto;
+  margin: 0 auto;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -249,8 +248,9 @@ header {
   max-width: 169px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
+  border: none;
 }
- 
+
 .hero-btn-blue:hover,
 .hero-btn-blue:focus {
   background-color: #404bbf;
@@ -279,12 +279,10 @@ header {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
-
 }
 
 .feature-description {
   text-align: left;
-
 }
 
 .team-cards {
@@ -326,13 +324,15 @@ header {
 
 .team-cards-subtitle {
   gap: 8px;
+  text-align: center;
 }
 
 .team-cards-description {
+  text-align: center;
 }
 
 .portfolio {
-  padding: 120px 72px;
+  padding: 96px 0px;
 }
 
 /* explanation text under image in section portfolio for example */
@@ -352,6 +352,7 @@ header {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  padding-bottom: 72px;
 }
 
 .portfolio-list {
@@ -390,7 +391,6 @@ header {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  /* gap: 16px; */
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -398,7 +398,7 @@ header {
 .footer-title {
   color: var(--cloud);
 
-    font-weight: 700;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
