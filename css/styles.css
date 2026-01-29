@@ -92,7 +92,7 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  width: 156px;
+  width: 115px;
   background: #fff;
   margin-right: 76px;
   /* height: 24px; */
@@ -125,7 +125,6 @@ header {
 
 .header-contacts-list {
   display: flex;
-  margin-left: auto;
   align-items: center;
   gap: 40px;
 }
@@ -149,7 +148,7 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #434455;
 }
 
 /* .header-contacts-link:hover, .header-contacts-link:focus {
@@ -240,10 +239,8 @@ header {
   letter-spacing: 0.04em;
   color: white;
   cursor: pointer;
-  padding: 100px;
   border-radius: 4px;
   padding: 16px 32px;
-  max-width: 169px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   border: none;
@@ -255,8 +252,8 @@ header {
 }
 
 .features {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .features-list {
@@ -267,7 +264,7 @@ header {
 }
 
 .features-item {
-  max-width: calc((100% - 24px * 3) / 4);
+  max-width: calc((100% - 24 * 3) / 4);
 }
 
 .features-subtitle {
@@ -316,7 +313,6 @@ header {
 /* Це зробить зображення «гумовими», тобто вони підлаштовуватимуться під ширину батьківського елемента */
 .team-cards-img {
   max-width: 100%;
-  /* min-width: 100%; */
   object-fit: cover;
 }
 
@@ -330,7 +326,7 @@ header {
 }
 
 .portfolio {
-  padding: 96px 0px;
+  padding: 120px 0px;
 }
 
 /* explanation text under image in section portfolio for example */
